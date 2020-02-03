@@ -86,7 +86,9 @@ public class JobInfo {
 	@ApiModelProperty("jvm参数")
 	private String jvmParam;
 
-	@ApiModelProperty("时间偏移量")
-	private int timeOffset;
+	@ApiModelProperty("增量初始时间")
+	private Date incStartTime;
 
+	@ApiModelProperty("分区信息")
+	private String partitionInfo;
 }
